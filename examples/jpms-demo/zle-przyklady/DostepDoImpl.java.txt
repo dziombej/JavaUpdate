@@ -1,0 +1,11 @@
+package com.tomtom.przyklad.aplikacja;
+
+// Ten plik CELOWO sie nie kompiluje. run.sh probuje go skompilowac,
+// zeby pokazac prawdziwy komunikat bledu z kompilatora.
+import com.tomtom.przyklad.uslugi.impl.PolskiePowitanie;
+
+public class DostepDoImpl {
+    public static void main(String[] args) {
+        System.out.println(new PolskiePowitanie().przywitaj("Lukasz"));
+    }
+}
