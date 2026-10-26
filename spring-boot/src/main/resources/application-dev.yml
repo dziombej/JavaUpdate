@@ -1,0 +1,10 @@
+# Lekcja 3 - profil "dev". Wlacz: mvn spring-boot:run -Dspring-boot.run.profiles=dev
+# Nadpisuje tylko to, co tu jest. Reszta zostaje z application.yml.
+szkolenie:
+  kurs:
+    nazwa: Spring Boot od podstaw (DEV)
+    maks-uczestnikow: 3
+
+spring:
+  jpa:
+    show-sql: true

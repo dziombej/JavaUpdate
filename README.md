@@ -1,5 +1,8 @@
 # JavaUpdate — Java 9 → 25
 
+> **Nowe: [Czesc III — szkolenie ze Spring Boot 4](spring-boot/README.md)**
+> (osobny projekt Maven w katalogu `spring-boot/`, 9 lekcji z kodem, testami i cwiczeniami).
+
 Repozytorium do nauki: **uruchamialne przyklady** kazdej istotnej zmiany
 w Javie od wersji 9 do 25, plus dokumenty tlumaczace, jak te rzeczy dzialaja
 i gdzie sa pulapki.
@@ -175,6 +178,19 @@ String Templates, Markdown Javadoc, virtual threads no longer pinning on
 What actually breaks: strong encapsulation in 17, the UTF-8 switch in 18, removed
 collectors and engines, library version floors, `javax` → `jakarta`, and a
 migration order that works.
+
+---
+
+# Czesc III — Spring Boot 4 (po polsku)
+
+Osobny projekt Maven w [`spring-boot/`](spring-boot) (Spring Boot 4.1.2, Java 25).
+Jedna aplikacja, dziewiec lekcji: start i autokonfiguracja, beany, konfiguracja,
+REST, Spring Data JPA, testowanie, Actuator, klienci HTTP i nowosci Boot 4.
+Spis tresci i instrukcja: [spring-boot/README.md](spring-boot/README.md).
+
+```bash
+cd spring-boot && mvn test && mvn spring-boot:run
+```
 
 ---
 
